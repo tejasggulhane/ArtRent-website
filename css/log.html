@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login and Sign Up</title>
+  <link rel="icon" href="/images/art.png" type="image/x-icon">
+
+  <style>
+    /* Add some basic styling */
+    body{
+        background-color: #ff4c68;
+    }
+    .form-container {
+      max-width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 3px solid #ccc;
+    }
+
+    .form-container input[type="text"],
+    .form-container input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 2px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    .form-container button {
+      background-color: black;
+      color:  white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .form-container button:hover {
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2><center>ArtRent</center></h2>
+    <form>
+      <input type="text" placeholder="Username" name="username" required>
+      <input type="password" placeholder="Password" name="password" required>
+      <button type="submit">Login</button>
+      <button type="submit">Sign up</button>
+    </form>
+  </div>
+
+  
+</body>
+</html>
