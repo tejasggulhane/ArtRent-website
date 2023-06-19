@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up Form</title>
+  <style>
+    /* sign up form*/
+.container {
+  width: 500px;
+  padding: 16px;
+  background-color: #f7dadc;
+  margin: 2px auto;
+  margin-top: 0%;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+input[type=text],
+input[type=password],
+input[type=tel],
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px auto;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.signbg {
+  background-color: #ff4c68;
+}
+button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0 ;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+.hh{
+  color: white;
+}
+button:hover {
+  opacity: 0.8;
+}
+b{
+  color: black;
+}
+  </style>
+</head>
+<header><h1 class="hh">ArtRent</h1></header>
+<body class="signbg">
+  <div class="container">
+    <label for="username"><b>username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="email" required>
+
+    <label for="gender"><b>Gender</b></label>
+    <select name="gender" required>
+      <option value="">Select gender</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+
+    <label for="mobile"><b>Mobile Number</b></label>
+    <input type="tel" placeholder="Enter Mobile Number" name="mobile" required>
+
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+
+    <div class="clearfix">
+      <button type="submit">Sign Up</button>
+    </div>
+    
+   
+  
+  </div>
+</body>
+</html>
