@@ -4,7 +4,7 @@ body {
   text-align: center;
    overflow: auto;
    overflow-x: scroll;
- webkit-overflow-scrolling: touch;
+ -webkit-overflow-scrolling: touch;
 }
 
 h1, h2, h3, h4, h5, h6 {
