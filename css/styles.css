@@ -2,9 +2,9 @@
 body {
   font-family: "Montserrat";
   text-align: center;
-  overflow: auto;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
+  overflow: visible;
+   overflow-x: visible;
+   -webkit-overflow-scrolling: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
